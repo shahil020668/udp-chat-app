@@ -21,5 +21,3 @@ It supports real-time group chat, private messaging using nicknames, and a respo
 ### Server:
 ```bash
 python server.py
-
-python client.py
