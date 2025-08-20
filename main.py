@@ -69,7 +69,7 @@ class ChatLayout(BoxLayout):
         def do_connect():
             try:
                 self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                self.client.connect(('192.168.99.94', 55555))
+                self.client.connect(('10.212.188.94', 55555))
                 self.client.send(self.nickname.encode('ascii'))
                 Thread(target=self.receive_messages, daemon=True).start()
                 def update_ui(dt):
