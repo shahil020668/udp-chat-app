@@ -1,6 +1,6 @@
-# 📨 UDP Chat App with Kivy UI
+# 📨 TCP Chat App with Kivy UI
 
-This is a Python-based multi-client messaging app using UDP sockets and a Kivy-based GUI.  
+This is a Python-based multi-client messaging app using TCP sockets and a Kivy-based GUI.  
 It supports real-time group chat, private messaging using nicknames, and a responsive interface.
 
 ## ✨ Features
@@ -9,6 +9,7 @@ It supports real-time group chat, private messaging using nicknames, and a respo
 - 🧑‍🤝‍🧑 Private messaging with `@nickname: message` format
 - 💬 Kivy-based interactive UI with focus and scroll management
 - ✅ Works on both PC and Android (.apk available)
+- Since I don’t have a public IP, the server won’t work outside my local network.
 
 ## 📱 Download APK
 
